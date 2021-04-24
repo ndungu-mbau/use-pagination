@@ -1,6 +1,6 @@
 {
   "name": "use-pagination",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Use Pagination hook.Disclaimer: at least React 16 is needed (the one with hooks ;) )",
   "author": "nekogd",
   "license": "Apache-2.0",
