@@ -5,13 +5,13 @@ This package enables one to paginate through an array of objects.
 ## Installation
 
 ```
-yarn add use-pagination
+yarn add use-pagination-hook
 ```
 
 Or 
 
 ```
-npm i use-pagination
+npm i use-pagination-hook
 ```
 
 ## How to use
@@ -20,7 +20,7 @@ The `use-pagination` hook takes two parameters, an array of all items, and a siz
 
 ```
  import React from "react'
- import { usePagination } from 'use-pagination'
+ import { usePagination } from 'use-pagination-hook'
 
  const ExampleComponent = () => {
    const { current, pages, display, next, previous } = usePagination({ items: props.items, size: props.size });
